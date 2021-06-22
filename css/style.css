@@ -16,6 +16,7 @@
     vertical-align: top;
   }
 
+
 body{
     background-color: rgba(235, 235, 235, 0.568);
   }
@@ -26,8 +27,8 @@ body{
 
 .contenitore{
   background-color: white;
-  width: 50%;
-  
+  width: 75%;
+  height: 80%;
   margin: auto;
   margin-top: 30px;
   border-radius: 20px;
@@ -35,58 +36,107 @@ body{
 
 .spazio{
   padding-left: 50px;
+  padding-top: 15px;
 }
 
-/* Colori bottoni ed etichette */
-.blu{
+.check{
+  color:rgb(17, 102, 17);
+  ;
+}
+
+.cross{
+  color: red;
+}
+
+.cross:after{
+  content:"\2717" ;
+}
+
+.check:after {
+  content: "\2713";
+}
+
+h4{
+  display: inline-block;
+}
+
+.task{
   border-radius: 5px;
-  background-color: blue;
+  background-color: cornflowerblue;
   color: white;
   padding: 10px;
   margin: 10px;
- 
 }
 
-.grigio{
+.section{
   border-radius: 5px;
   color: rgba(150, 150, 150, 0.5);
   background-color: white;
   padding: 10px;
   margin: 10px;
 }
-.viola{
-  border-radius: 5px;
-  background-color: blueviolet;
-  color: white;
-  padding: 5px;
-}
-
-.verde{
-  border-radius: 5px;;
-  background-color: rgb(5, 109, 78);
-  color: white;
-}
-
-.arancione{
-  border-radius: 5px;
-  background-color: orange;
-  color: white;
-}
-
-.fucsia{
-  border-radius: 5px;
-  background-color: orchid;
-  color: white;
-}
-
-.giallo{
-  border-radius: 5px;
-  padding: 5px;
-  background-color: yellow;
-  color: white;
-}
 
 li{
   list-style-type:none;
+  padding: 20px;
   
 }
+
+/* Colori bottoni ed etichette */
+.blu{
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  color: white;
+  font-size: 12px;
+  padding: 7px;
+ 
+}
+
+.grigio{
+  border-radius: 10px;
+  color: rgba(150, 150, 150, 0.5);
+  background-color: white;
+  font-size: 12px;
+  padding: 7px;
+}
+.viola{
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 12px;
+  padding: 7px;
+}
+
+.verde{
+  border-radius: 10px;
+  background-color: rgb(5, 109, 78);
+  color: white;
+  font-size: 12px;
+  padding: 7px;
+}
+
+.arancione{
+  border-radius: 10px;
+  background-color: orange;
+  color: white;
+  font-size: 12px;
+  padding: 7px;
+}
+
+.fucsia{
+  border-radius: 10px;
+  background-color: orchid;
+  color: white;
+  font-size: 12px;
+  padding: 7px;
+}
+
+.giallo{
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgba(102, 160, 9, 0.349);
+  color: white;
+  font-size: 12px;
+  padding: 7px;
+}
+
