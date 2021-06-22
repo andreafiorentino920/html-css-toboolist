@@ -5,31 +5,88 @@
 }
 
   header{
-    height: 150px;
+    height: 100px;
   }
+
 
 .titolo{
     font-size: 50px;
     font-family: 'Roboto', 
     sans-serif;
+    vertical-align: top;
   }
 
 body{
-    background-color: grey;
+    background-color: rgba(235, 235, 235, 0.568);
   }
 
   header{
     background-color: white;
   }
-main{
+
+.contenitore{
   background-color: white;
-}
-  .contenitore {
-    width: 60%;
-    margin: auto;
-    margin-top: 30px;
+  width: 50%;
+  
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 20px;
 }
 
-.bottone{
-  border-radius: 10px;
+.spazio{
+  padding-left: 50px;
+}
+
+/* Colori bottoni ed etichette */
+.blu{
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+ 
+}
+
+.grigio{
+  border-radius: 5px;
+  color: rgba(150, 150, 150, 0.5);
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+}
+.viola{
+  border-radius: 5px;
+  background-color: blueviolet;
+  color: white;
+  padding: 5px;
+}
+
+.verde{
+  border-radius: 5px;;
+  background-color: rgb(5, 109, 78);
+  color: white;
+}
+
+.arancione{
+  border-radius: 5px;
+  background-color: orange;
+  color: white;
+}
+
+.fucsia{
+  border-radius: 5px;
+  background-color: orchid;
+  color: white;
+}
+
+.giallo{
+  border-radius: 5px;
+  padding: 5px;
+  background-color: yellow;
+  color: white;
+}
+
+li{
+  list-style-type:none;
+  
 }
